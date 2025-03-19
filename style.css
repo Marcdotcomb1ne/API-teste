@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: gray;
+    color: white;
+
+}
+#barra{
+    display: flex;
+    background-color: rgb(77, 73, 73);
+    height: 5px;
+}
+
+#area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#busca, #busca2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#resultado{
+    color: gray;
+}
+
+#quadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px dashed gray;
+    stroke: 10;
+    border-radius: 19px;
+    height: 400px;
+    width: 400px;
+}
+
+input{
+    border-radius: 14px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    border-radius: 14px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+
+button:hover{
+    transition: .4s;
+    background-color: gray;
+    color: white;
+}
